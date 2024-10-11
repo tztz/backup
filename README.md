@@ -47,7 +47,7 @@ That's it.
 
 ### Restore backup after a fresh OS installation (aka there's nothing on your computer)
 
-1. Download the `backup_restore.sh` file from this repository to some temporary empty folder on your machine.
+1. Download the `backup_restore.sh` file from this repository to some temporary, empty folder on your machine.
 2. Add a `.backup.env` file with your configuration and credentials to the same folder.
 3. Execute
 
