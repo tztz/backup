@@ -31,21 +31,11 @@ backup_create.sh
 
 That's it.
 
-## Restore
+## Restore backup
 
-Note: Nothing will ever be overwritten! If the destination to restore to already exists, the restore process will do nothing but quit with an error message saying that the destination folder already exists.
+Note: Nothing is ever overwritten! If the target folder to which you want to restore already exists, the restore process will do nothing at all but quit with an error message.
 
-### Restore during normal operation
-
-Just execute
-
-```bash
-backup_restore.sh
-```
-
-That's it.
-
-### Restore backup after a fresh OS installation (aka there's nothing on your computer)
+### Restore after a fresh OS installation (aka there's nothing on your computer)
 
 1. Download the `backup_restore.sh` file from this repository to some temporary, empty folder on your machine.
 2. Add a `.backup.env` file with your configuration and credentials to the same folder.
@@ -56,5 +46,15 @@ That's it.
    ```
 
 4. Once the restore is complete you can delete the temporarily created folder.
+
+That's it.
+
+### Restore during normal operation
+
+Just execute
+
+```bash
+backup_restore.sh
+```
 
 That's it.
