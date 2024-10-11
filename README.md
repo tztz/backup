@@ -2,7 +2,7 @@
 
 See <https://restic.readthedocs.io/>
 
-## ENV_VARS
+## Prerequisites
 
 The following environment variables are required and must be stored in a file called `.backup.env`.
 Make sure having the `.backup.env` file located in the same folder as all the `backup_*.sh` shell scripts.
