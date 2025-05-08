@@ -4,6 +4,8 @@ See <https://restic.readthedocs.io/>
 
 ## Prerequisites
 
+### Environment variables
+
 The following environment variables are required and must be stored in a file called `.backup.env`.
 Make sure having the `.backup.env` file located in the same folder as all the `backup_*.sh` shell scripts.
 
@@ -20,6 +22,10 @@ RESTIC_PASSWORD="..."
 These environment variables specify the folders to backup resp. restore to, the location of the S3 backup, and the credentials required for access.
 
 Do not share your credentials!
+
+### restic
+
+You need to have `restic` installed in order to backup/restore.
 
 ## Backup
 
